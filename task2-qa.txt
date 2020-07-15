@@ -1,0 +1,25 @@
+task2
+Q1. how does a git workflow flows?
+	wrokspace -----> staging area ----> local repo ----> remote repo
+	     ---(add)-->        ---(commit)-->       ---(push)--->
+	     ------------(commit -a)--------->
+	     <---------(merge)----------------       <----(fetch)----
+             <-------------------(pull)-----------------------------
+Q2. Different stages of a git project?
+	1. add: The git add adds the files from the developers working 
+		space or working directory to the staging area.
+	2. commit: The git commit cmd takes a screenshort of the code
+		 at that point in time which means that after commiting 
+		the repo the git keeps a track of all the changes we make 
+		in it.
+	3. push: The push command pushes the files from local repository to 
+		remote repository. Revetrs files or commits from local commits 
+		to remote server.
+	4. fetch: The fetch is a converse of push ie. imports commits to 
+		local branch .
+	5. status: See the current status of our repo
+	6. diff: to see the difference between the versions of code.
+
+Q3  Is it possible to do git commit before git add?
+	yes the command git commit -a transforms the workspace contents 
+	to local repo directly.
